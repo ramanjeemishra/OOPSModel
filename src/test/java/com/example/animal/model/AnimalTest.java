@@ -1,11 +1,10 @@
 package com.example.animal.model;
 
-import static com.example.animal.model.fixtures.AnimalFixture.*;
+import static com.example.animal.repository.AnimalTestData.*;
 
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 
-import static com.example.animal.model.fixtures.AnimalFixture.makeDuck;
 import static org.junit.jupiter.api.Assertions.*;
 
 class AnimalTest {

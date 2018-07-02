@@ -1,10 +1,11 @@
-package com.example.animal.model.fixtures;
+package com.example.animal.repository;
 
 import com.example.animal.behaviour.Sound;
 import com.example.animal.model.*;
 
-public class AnimalFixture {
-    private AnimalFixture() {
+public class AnimalTestData
+{
+    private AnimalTestData() {
     }
 
     public static Sound duckSound = () -> "Quack, Quack";
@@ -58,5 +59,17 @@ public class AnimalFixture {
 
     public static ClownFish makeClownFish(){
         return new ClownFish("Small", "Orange", true);
+    }
+
+    public static ButterFly makeButterFly(){
+        return new ButterFly();
+    }
+
+    public static CaterPillar makeCaterPillar(){
+        return new CaterPillar();
+    }
+
+    public static Dolphin makeDolphin(){
+        return new Dolphin("Medium", "Grey");
     }
 }
