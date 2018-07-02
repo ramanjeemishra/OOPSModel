@@ -1,6 +1,7 @@
 package com.example.animal.model;
 
 import static com.example.animal.model.fixtures.AnimalFixture.*;
+
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 
@@ -28,4 +29,32 @@ class AnimalTest {
                 () -> assertEquals(chickenSound, chicken.sing()));
     }
 
+
+    @DisplayName("Rooster Model - Q3")
+    @Test
+    void roosterCanMakeSound() {
+        Rooster rooster = makeRooster();
+        assertAll("Rooster can make sound",
+                () -> assertEquals(roosterSound, rooster.sing()),
+                () -> assertNotNull(rooster.getRelative()));
+    }
+
+
+    @DisplayName("Parrot Model - Q4")
+    @Test
+    void parrotCanAdaptSoundsFromOtherSound() {
+        Parrot parrotWithDog = makeParrotLivingWithDog();
+        Parrot parrotWithCat = makeParrotLivingWithCat();
+        Parrot parrotWithDuck = makeParrotLivingWithDuck();
+        Parrot parrotWithRooster = makeParrotLivingWithRooster();
+        Parrot parrotWithPhone = makeParrotLivingWithPhone();
+        assertAll("Adaptable sound birds",
+                () -> assertEquals(dogSound, parrotWithDog.sing()),
+                () -> assertEquals(catSound, parrotWithCat.sing()),
+                () -> assertEquals(duckSound, parrotWithDuck.sing()),
+                () -> assertEquals(roosterSound, parrotWithRooster.sing()),
+                () -> assertEquals(phoneSound, parrotWithPhone.sing())
+        );
+
+    }
 }
