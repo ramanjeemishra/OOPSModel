@@ -1,3 +1,5 @@
 .mvn
+mvnw
+mvnw.cmd
 gradle
 target
