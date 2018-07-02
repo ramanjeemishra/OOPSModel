@@ -15,4 +15,8 @@ public class Shark extends AnimalWithBehaviourDetails implements SwiminingAnimal
     public boolean swim() {
         return true;
     }
+
+    public Animal eat() {
+        return eat;
+    }
 }
