@@ -1,39 +1,38 @@
 package com.example.template.controller;
 
-import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.get;
-import static org.springframework.test.web.servlet.result.MockMvcResultHandlers.print;
-import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.jsonPath;
-import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.status;
-
+import com.example.animal.controller.AnimalController;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.autoconfigure.web.servlet.AutoConfigureMockMvc;
+import org.springframework.boot.test.autoconfigure.web.servlet.WebMvcTest;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.test.context.junit4.SpringRunner;
 import org.springframework.test.web.servlet.MockMvc;
+import org.springframework.test.web.servlet.request.MockMvcRequestBuilders;
+
+import static org.hamcrest.Matchers.containsString;
+import static org.springframework.http.MediaType.APPLICATION_JSON;
+import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.content;
+import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.status;
 
 @RunWith(SpringRunner.class)
 @SpringBootTest
 @AutoConfigureMockMvc
+@WebMvcTest(AnimalController.class)
 public class AnimalControllerTests {
 
     @Autowired
     private MockMvc mockMvc;
 
-    @Test
-    public void noParamGreetingShouldReturnDefaultMessage() throws Exception {
-
-        this.mockMvc.perform(get("/greeting")).andDo(print()).andExpect(status().isOk())
-                .andExpect(jsonPath("$.content").value("Hello, World!"));
-    }
 
     @Test
-    public void paramGreetingShouldReturnTailoredMessage() throws Exception {
-
-        this.mockMvc.perform(get("/greeting").param("name", "Spring Community"))
-                .andDo(print()).andExpect(status().isOk())
-                .andExpect(jsonPath("$.content").value("Hello, Spring Community!"));
+    public void animals() throws Exception {
+        mockMvc.perform(
+                MockMvcRequestBuilders.get("/animals")
+                        .accept(APPLICATION_JSON))
+                .andExpect(status().isOk())
+                .andExpect(content().string(
+                        containsString("Quack Quack")));
     }
-
 }

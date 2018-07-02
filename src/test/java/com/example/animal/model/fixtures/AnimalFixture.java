@@ -1,10 +1,7 @@
 package com.example.animal.model.fixtures;
 
 import com.example.animal.behaviour.Sound;
-import com.example.animal.model.Chicken;
-import com.example.animal.model.Duck;
-import com.example.animal.model.Parrot;
-import com.example.animal.model.Rooster;
+import com.example.animal.model.*;
 
 public class AnimalFixture {
     private AnimalFixture() {
@@ -30,24 +27,36 @@ public class AnimalFixture {
         return new Rooster(roosterSound, makeChicken());
     }
 
-    public static Parrot makeParrotLivingWithDog(){
+    public static Parrot makeParrotLivingWithDog() {
         return new Parrot(dogSound);
     }
 
-    public static Parrot makeParrotLivingWithCat(){
+    public static Parrot makeParrotLivingWithCat() {
         return new Parrot(catSound);
     }
 
 
-    public static Parrot makeParrotLivingWithRooster(){
+    public static Parrot makeParrotLivingWithRooster() {
         return new Parrot(roosterSound);
     }
 
-    public static Parrot makeParrotLivingWithDuck(){
+    public static Parrot makeParrotLivingWithDuck() {
         return new Parrot(duckSound);
     }
 
-    public static Parrot makeParrotLivingWithPhone(){
+    public static Parrot makeParrotLivingWithPhone() {
         return new Parrot(phoneSound);
+    }
+
+    public static Fish makeFish() {
+        return new Fish();
+    }
+
+    public static Shark makeShark() {
+        return new Shark("Large", "Grey", makeFish());
+    }
+
+    public static ClownFish makeClownFish(){
+        return new ClownFish("Small", "Orange", true);
     }
 }

@@ -57,4 +57,18 @@ class AnimalTest {
         );
 
     }
+
+    @DisplayName("Model Fish - Q B1, 2a")
+    @Test
+    void fishCanSwim(){
+        Fish fish = makeFish();
+        assertTrue(fish.swim());
+    }
+
+    @DisplayName("Model Fish - Q B1, 2a")
+    @Test
+    void clownFishCanMakeJoke(){
+        ClownFish clownFish = makeClownFish();
+        assertTrue(clownFish.makeJoke());
+    }
 }
