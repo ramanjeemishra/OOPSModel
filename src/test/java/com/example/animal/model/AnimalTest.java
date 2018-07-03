@@ -2,9 +2,12 @@ package com.example.animal.model;
 
 import static com.example.animal.repository.AnimalTestData.*;
 
+import com.example.animal.repository.AnimalRepository;
+import com.example.animal.service.AnimalStatsService;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 
+import static com.example.animal.service.AnimalStatsService.count;
 import static org.junit.jupiter.api.Assertions.*;
 
 class AnimalTest {
@@ -15,7 +18,7 @@ class AnimalTest {
         Duck duck = makeDuck();
         assertAll("Duck can swim and make sound",
                 () -> assertTrue(duck.swim()),
-                () -> assertEquals(duckSound, duck.sing()));
+                () -> assertEquals(duckSound.sound(), duck.sing().sound()));
     }
 
 
@@ -64,20 +67,24 @@ class AnimalTest {
         assertTrue(fish.swim());
     }
 
-    @DisplayName("Model Fish - Q B1, 2a")
+    @DisplayName("Model Clown Fish - Q B1, 2a")
     @Test
     void clownFishCanMakeJoke() {
         ClownFish clownFish = makeClownFish();
-        assertTrue(clownFish.makeJoke());
-        assertEquals("Orange", clownFish.getSize());
+        assertAll("Shark Behavior Test",
+                () -> assertTrue(clownFish.makeJoke()),
+                () -> assertEquals("Orange", clownFish.getColor()));
     }
 
-    @DisplayName("Model Fish - Q B1, 2a")
+    @DisplayName("Model Shark - Q B1, 2a")
     @Test
     void sharkIsLargeAndGrey() {
         Shark shark = makeShark();
-        assertNotNull(shark.eat());
-        assertEquals("Grey", shark.getSize());
+        assertAll("Shark Behavior Test",
+                () -> assertNotNull(shark.eat()),
+                () -> assertEquals("Grey", shark.getColor()));
     }
+
+
 
 }

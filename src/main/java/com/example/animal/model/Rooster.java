@@ -7,7 +7,6 @@ public class Rooster extends Bird implements SingingAnimal {
 
     private final Sound sound;
 
-
     private final Chicken relative;
 
     public Rooster(Sound sound, Chicken relative) {

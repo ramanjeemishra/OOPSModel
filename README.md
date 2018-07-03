@@ -1,7 +1,7 @@
 ### A sample object hierarchy for Animal World
 
-``Animal.java`` contains the model hierarchy
+``com.example.animal.model`` package contains the Animal model hierarchy
 
-``AnimalApplication.java`` is <i>SpringBoot</i> Application which has <B>REST API</B>
+``AnimalApplication.java`` is <i>SpringBoot</i> Application, ``AnimalController`` has *REST API* for querying Animal model.
 
-![alt text](FlyingAnimal.png "A sample Model Hierarchy")
+![alt text](AnimalModel.png "A sample Animal Model Hierarchy")

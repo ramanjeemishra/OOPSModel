@@ -4,7 +4,7 @@ public abstract class AnimalWithBehaviourDetails  extends Animal{
     String size;
     String color;
 
-    public AnimalWithBehaviourDetails(String colr, String size) {
+    public AnimalWithBehaviourDetails(String size, String color) {
         this.size = size;
         this.color = color;
     }
