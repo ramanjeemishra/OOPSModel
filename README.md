@@ -1,4 +1,4 @@
-### A sample object hierarchy for Animal World
+### A sample object hierarchy for Animal World with REST API
 
 ``com.example.animal.model`` package contains the Animal model hierarchy
 
