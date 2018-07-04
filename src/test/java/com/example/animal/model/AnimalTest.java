@@ -87,13 +87,13 @@ class AnimalTest {
     @DisplayName("Counting animals")
     @Test
     void countAnimals() {
-        Animal[] animalBehaviours = AnimalRepository.getAnimals();
+        Animal[] animals = AnimalRepository.getAnimals();
 
         assertAll("Count Animals with different predicates",
-                () -> assertEquals(1, count(animalBehaviours, Animal::canFly)),
-                () -> assertEquals(1, count(animalBehaviours, Animal::canWalk)),
-                () -> assertEquals(1, count(animalBehaviours, Animal::canSing)),
-                () -> assertEquals(5, count(animalBehaviours, Animal::canSwim))
+                () -> assertEquals(1, count(animals, Animal::canFly)),
+                () -> assertEquals(1, count(animals, Animal::canWalk)),
+                () -> assertEquals(1, count(animals, Animal::canSing)),
+                () -> assertEquals(5, count(animals, Animal::canSwim))
 
         );
     }

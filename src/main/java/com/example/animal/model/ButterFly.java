@@ -1,6 +1,6 @@
 package com.example.animal.model;
 
-public class ButterFly extends Insect {
+public class ButterFly implements Insect {
     @Override
     public boolean fly() {
         return false;

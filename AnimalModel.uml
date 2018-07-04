@@ -3,232 +3,228 @@
   <ID>JAVA</ID>
   <OriginalElement>com.example.animal.behaviour.FlyingAnimal</OriginalElement>
   <nodes>
-    <node x="541.2907070707068" y="414.5">com.example.animal.model.Shark</node>
-    <node x="387.33333333333337" y="120.0">com.example.animal.service.AnimalStatsService</node>
-    <node x="803.7490404040401" y="272.0">com.example.animal.behaviour.SwiminingAnimal</node>
-    <node x="0.0" y="261.0">com.example.animal.controller.AnimalControllerTests</node>
-    <node x="218.0" y="272.0">com.example.animal.model.Insect</node>
-    <node x="211.8691414141416" y="120.0">com.example.animal.behaviour.WalkingAnimal</node>
-    <node x="1161.052474747475" y="403.5">com.example.animal.model.Duck</node>
-    <node x="895.2907070707067" y="425.5">com.example.animal.model.Fish</node>
-    <node x="594.3476262626266" y="250.0">com.example.animal.model.AnimalWithDetails</node>
-    <node x="1207.0532070707068" y="120.0">com.example.animal.model.Bird</node>
-    <node x="869.6601262626266" y="547.0">com.example.animal.model.AnimalTest</node>
-    <node x="207.54250000000013" y="547.0">com.example.animal.model.CaterPillar</node>
-    <node x="1361.0948737373735" y="0.0">com.example.common.behaviour.Sound</node>
-    <node x="1335.9101262626266" y="120.0">com.example.animal.behaviour.SingingAnimal</node>
-    <node x="1377.5708333333332" y="261.0">com.example.animal.model.Chicken</node>
-    <node x="1035.0532070707068" y="261.0">com.example.animal.model.Parrot</node>
-    <node x="693.2907070707067" y="414.5">com.example.animal.model.ClownFish</node>
-    <node x="262.33333333333337" y="425.5">com.example.animal.model.ButterFly</node>
-    <node x="17.5" y="109.0">com.example.animal.controller.AnimalController</node>
-    <node x="0.0" y="621.0">com.example.animal.AnimalApplication</node>
-    <node x="509.0282070707068" y="0.0">com.example.animal.behaviour.Animal</node>
-    <node x="975.8532070707067" y="120.0">com.example.animal.behaviour.FlyingAnimal</node>
-    <node x="1388.4733585858585" y="403.0">com.example.animal.model.Rooster</node>
+    <node x="1098.736994949495" y="434.5">com.example.animal.model.Shark</node>
+    <node x="1433.6573989898989" y="160.0">com.example.animal.service.AnimalStatsService</node>
+    <node x="812.9365656565656" y="302.0">com.example.animal.behaviour.SwiminingAnimal</node>
+    <node x="1224.6573989898989" y="291.0">com.example.animal.controller.AnimalControllerTests</node>
+    <node x="106.0" y="302.0">com.example.animal.model.Insect</node>
+    <node x="0.0" y="160.0">com.example.animal.behaviour.WalkingAnimal</node>
+    <node x="608.7369949494949" y="423.5">com.example.animal.model.Duck</node>
+    <node x="803.7369949494949" y="445.5">com.example.animal.model.Fish</node>
+    <node x="1024.7042424242425" y="280.0">com.example.animal.model.AnimalWithDetails</node>
+    <node x="567.2342929292928" y="160.0">com.example.animal.model.Bird</node>
+    <node x="816.5763888888887" y="577.0">com.example.animal.model.AnimalTest</node>
+    <node x="119.24999999999989" y="577.0">com.example.animal.model.CaterPillar</node>
+    <node x="401.39489898989893" y="0.0">com.example.common.behaviour.Sound</node>
+    <node x="393.5" y="160.0">com.example.animal.behaviour.SingingAnimal</node>
+    <node x="293.99999999999994" y="291.0">com.example.animal.model.Chicken</node>
+    <node x="560.3170454545452" y="291.0">com.example.animal.model.Parrot</node>
+    <node x="896.7369949494949" y="434.5">com.example.animal.model.ClownFish</node>
+    <node x="59.749999999999886" y="445.5">com.example.animal.model.ButterFly</node>
+    <node x="1242.1573989898989" y="149.0">com.example.animal.controller.AnimalController</node>
+    <node x="0.0" y="651.0">com.example.animal.AnimalApplication</node>
+    <node x="1158.6573989898989" y="0.0">com.example.animal.behaviour.Animal</node>
+    <node x="222.99999999999994" y="160.0">com.example.animal.behaviour.FlyingAnimal</node>
+    <node x="257.2916666666666" y="423.0">com.example.animal.model.Rooster</node>
   </nodes>
   <notes />
   <edges>
     <edge source="com.example.animal.model.Parrot" target="com.example.animal.behaviour.FlyingAnimal">
       <point x="-60.40000000000009" y="-25.5" />
-      <point x="1050.1532070707067" y="230.0" />
-      <point x="1038.3532070707067" y="230.0" />
-      <point x="0.0" y="14.5" />
+      <point x="575.4170454545451" y="230.0" />
+      <point x="327.1666666666667" y="230.0" />
+      <point x="41.66666666666674" y="14.5" />
     </edge>
     <edge source="com.example.animal.model.AnimalTest" target="com.example.animal.model.Fish">
-      <point x="0.0" y="-14.5" />
-      <point x="927.6601262626266" y="527.0" />
-      <point x="931.7907070707067" y="527.0" />
+      <point x="1.1368683772161603E-13" y="-14.5" />
+      <point x="874.5763888888888" y="517.0" />
+      <point x="840.2369949494949" y="517.0" />
       <point x="0.0" y="14.5" />
     </edge>
     <edge source="com.example.animal.model.Insect" target="com.example.animal.behaviour.FlyingAnimal">
-      <point x="28.333333333333314" y="-14.5" />
-      <point x="288.83333333333337" y="230.0" />
-      <point x="996.68654040404" y="230.0" />
+      <point x="28.333333333333343" y="-14.5" />
+      <point x="176.83333333333337" y="260.0" />
+      <point x="243.8333333333332" y="260.0" />
       <point x="-41.66666666666674" y="14.5" />
     </edge>
     <edge source="com.example.animal.model.Duck" target="com.example.animal.behaviour.SingingAnimal">
-      <point x="70.0" y="-36.5" />
-      <point x="1318.552474747475" y="373.0" />
-      <point x="1367.0708333333332" y="373.0" />
-      <point x="1367.0708333333332" y="230.0" />
-      <point x="1386.5351262626266" y="230.0" />
-      <point x="-16.875" y="14.5" />
+      <point x="-70.0" y="-36.5" />
+      <point x="626.2369949494949" y="393.0" />
+      <point x="466.5" y="393.0" />
+      <point x="466.5" y="240.0" />
+      <point x="477.875" y="240.0" />
+      <point x="16.875" y="14.5" />
     </edge>
     <edge source="com.example.animal.model.Chicken" target="com.example.animal.model.Bird">
-      <point x="-30.200000000000045" y="-25.5" />
-      <point x="1422.8708333333334" y="200.0" />
-      <point x="1270.9282070707068" y="200.0" />
-      <point x="27.375" y="14.5" />
+      <point x="60.40000000000009" y="-25.5" />
+      <point x="429.90000000000003" y="250.0" />
+      <point x="576.3592929292928" y="250.0" />
+      <point x="-27.375" y="14.5" />
     </edge>
     <edge source="com.example.animal.model.Parrot" target="com.example.animal.behaviour.SingingAnimal">
-      <point x="60.40000000000009" y="-25.5" />
-      <point x="1170.9532070707069" y="230.0" />
-      <point x="1352.7851262626266" y="230.0" />
-      <point x="-50.625" y="14.5" />
+      <point x="-30.200000000000045" y="-25.5" />
+      <point x="605.6170454545452" y="220.0" />
+      <point x="511.625" y="220.0" />
+      <point x="50.625" y="14.5" />
     </edge>
     <edge source="com.example.animal.model.AnimalWithDetails" target="com.example.animal.behaviour.Animal">
       <point x="0.0" y="-36.5" />
-      <point x="673.8476262626266" y="69.0" />
-      <point x="573.3059848484846" y="69.0" />
-      <point x="19.77777777777783" y="14.5" />
+      <point x="1104.2042424242425" y="129.0" />
+      <point x="1193.26851010101" y="129.0" />
+      <point x="-9.888888888888914" y="14.5" />
     </edge>
     <edge source="com.example.animal.model.Rooster" target="com.example.animal.behaviour.SingingAnimal">
-      <point x="12.583333333333258" y="-37.0" />
-      <point x="1476.556691919192" y="363.0" />
-      <point x="1539.0708333333332" y="363.0" />
-      <point x="1539.0708333333332" y="180.0" />
-      <point x="1454.0351262626268" y="180.0" />
-      <point x="50.62500000000006" y="14.5" />
+      <point x="37.75" y="-37.0" />
+      <point x="370.5416666666666" y="393.0" />
+      <point x="455.5" y="393.0" />
+      <point x="455.5" y="240.0" />
+      <point x="444.125" y="240.0" />
+      <point x="-16.875" y="14.5" />
     </edge>
     <edge source="com.example.animal.model.Bird" target="com.example.animal.behaviour.Animal">
       <point x="0.0" y="-14.5" />
-      <point x="1243.5532070707068" y="49.0" />
-      <point x="593.0837626262623" y="49.0" />
-      <point x="39.55555555555554" y="14.5" />
+      <point x="603.7342929292928" y="109.0" />
+      <point x="1173.4907323232324" y="109.0" />
+      <point x="-29.66666666666663" y="14.5" />
     </edge>
     <edge source="com.example.animal.controller.AnimalController" target="com.example.animal.behaviour.Animal">
       <point x="0.0" y="-25.5" />
-      <point x="94.0" y="59.0" />
-      <point x="513.9726515151513" y="59.0" />
-      <point x="-39.55555555555554" y="14.5" />
+      <point x="1318.6573989898989" y="129.0" />
+      <point x="1222.9351767676767" y="129.0" />
+      <point x="19.777777777777715" y="14.5" />
     </edge>
     <edge source="com.example.animal.model.Duck" target="com.example.animal.behaviour.SwiminingAnimal">
-      <point x="-70.0" y="-36.5" />
-      <point x="1178.552474747475" y="373.0" />
-      <point x="935.8740404040401" y="373.0" />
-      <point x="56.625" y="14.5" />
+      <point x="70.0" y="-36.5" />
+      <point x="766.2369949494949" y="403.0" />
+      <point x="831.8115656565656" y="403.0" />
+      <point x="-56.625" y="14.5" />
     </edge>
     <edge source="com.example.animal.model.Rooster" target="com.example.common.behaviour.Sound">
-      <point x="37.75" y="-37.0" />
-      <point x="1501.7233585858585" y="373.0" />
-      <point x="1550.0708333333332" y="373.0" />
-      <point x="1550.0708333333332" y="69.0" />
-      <point x="1434.4282070707068" y="69.0" />
-      <point x="29.3333333333332" y="14.5" />
+      <point x="-37.75" y="-37.0" />
+      <point x="295.0416666666666" y="393.0" />
+      <point x="212.5" y="393.0" />
+      <point x="212.5" y="69.0" />
+      <point x="416.0615656565657" y="69.0" />
+      <point x="-29.333333333333258" y="14.5" />
     </edge>
     <edge source="com.example.animal.model.CaterPillar" target="com.example.animal.model.ButterFly">
-      <point x="36.666666666666686" y="-14.5" />
-      <point x="299.2091666666669" y="527.0" />
-      <point x="314.33333333333337" y="527.0" />
+      <point x="-36.66666666666666" y="-14.5" />
+      <point x="137.58333333333326" y="557.0" />
+      <point x="111.74999999999989" y="557.0" />
       <point x="0.0" y="14.5" />
     </edge>
     <edge source="com.example.animal.model.Insect" target="com.example.animal.behaviour.Animal">
-      <point x="-28.33333333333337" y="-14.5" />
-      <point x="232.16666666666663" y="230.0" />
-      <point x="201.3691414141416" y="230.0" />
-      <point x="201.3691414141416" y="69.0" />
-      <point x="523.8615404040402" y="69.0" />
-      <point x="-29.66666666666663" y="14.5" />
+      <point x="0.0" y="-14.5" />
+      <point x="148.5" y="99.0" />
+      <point x="1163.6018434343434" y="99.0" />
+      <point x="-39.55555555555554" y="14.5" />
     </edge>
     <edge source="com.example.animal.model.Shark" target="com.example.animal.behaviour.Animal">
-      <point x="-52.799999999999955" y="-25.5" />
-      <point x="554.4907070707069" y="383.0" />
-      <point x="562.8333333333334" y="383.0" />
-      <point x="562.8333333333334" y="89.0" />
-      <point x="553.5282070707068" y="89.0" />
+      <point x="26.399999999999977" y="-25.5" />
+      <point x="1191.136994949495" y="403.0" />
+      <point x="1203.1573989898989" y="403.0" />
       <point x="0.0" y="14.5" />
     </edge>
     <edge source="com.example.animal.model.AnimalTest" target="com.example.animal.model.Duck">
-      <point x="25.77777777777783" y="-14.5" />
-      <point x="953.4379040404044" y="507.0" />
-      <point x="1248.552474747475" y="507.0" />
+      <point x="-12.8888888888888" y="-14.5" />
+      <point x="861.6874999999999" y="527.0" />
+      <point x="696.2369949494949" y="527.0" />
       <point x="0.0" y="36.5" />
     </edge>
     <edge source="com.example.animal.model.Chicken" target="com.example.animal.behaviour.SingingAnimal">
-      <point x="0.0" y="-25.5" />
-      <point x="1453.0708333333332" y="190.0" />
-      <point x="1420.2851262626268" y="190.0" />
-      <point x="16.875" y="14.5" />
+      <point x="30.200000000000045" y="-25.5" />
+      <point x="399.7" y="260.0" />
+      <point x="410.375" y="260.0" />
+      <point x="-50.625" y="14.5" />
     </edge>
     <edge source="com.example.animal.model.Fish" target="com.example.animal.behaviour.SwiminingAnimal">
-      <point x="-18.25" y="-14.5" />
-      <point x="913.5407070707067" y="383.0" />
-      <point x="898.1240404040401" y="383.0" />
-      <point x="18.875" y="14.5" />
+      <point x="18.25" y="-14.5" />
+      <point x="858.4869949494949" y="403.0" />
+      <point x="869.5615656565656" y="403.0" />
+      <point x="-18.875" y="14.5" />
     </edge>
     <edge source="com.example.animal.model.ButterFly" target="com.example.animal.model.Insect">
       <point x="0.0" y="-14.5" />
-      <point x="314.33333333333337" y="383.0" />
-      <point x="288.83333333333337" y="383.0" />
-      <point x="28.333333333333314" y="14.5" />
+      <point x="111.74999999999989" y="403.0" />
+      <point x="120.16666666666663" y="403.0" />
+      <point x="-28.33333333333333" y="14.5" />
     </edge>
     <edge source="com.example.animal.model.AnimalTest" target="com.example.animal.service.AnimalStatsService">
-      <point x="-38.66666666666663" y="-14.5" />
-      <point x="888.9934595959601" y="517.0" />
-      <point x="469.83333333333337" y="517.0" />
+      <point x="51.55555555555577" y="-14.5" />
+      <point x="926.1319444444445" y="557.0" />
+      <point x="1516.1573989898989" y="557.0" />
       <point x="0.0" y="14.5" />
     </edge>
     <edge source="com.example.animal.model.Duck" target="com.example.animal.model.Bird">
-      <point x="0.0" y="-36.5" />
-      <point x="1248.552474747475" y="383.0" />
-      <point x="1238.0532070707068" y="383.0" />
-      <point x="1238.0532070707068" y="220.0" />
-      <point x="1234.4282070707068" y="220.0" />
-      <point x="-9.125" y="14.5" />
+      <point x="-35.0" y="-36.5" />
+      <point x="661.2369949494949" y="373.0" />
+      <point x="734.3170454545452" y="373.0" />
+      <point x="734.3170454545452" y="250.0" />
+      <point x="631.1092929292928" y="250.0" />
+      <point x="27.375" y="14.5" />
     </edge>
     <edge source="com.example.animal.model.Chicken" target="com.example.animal.behaviour.FlyingAnimal">
       <point x="-60.40000000000009" y="-25.5" />
-      <point x="1392.6708333333331" y="210.0" />
-      <point x="1080.0198737373735" y="210.0" />
-      <point x="41.66666666666674" y="14.5" />
+      <point x="309.09999999999985" y="260.0" />
+      <point x="285.49999999999994" y="260.0" />
+      <point x="0.0" y="14.5" />
     </edge>
     <edge source="com.example.animal.model.Fish" target="com.example.animal.behaviour.Animal">
-      <point x="18.25" y="-14.5" />
-      <point x="950.0407070707067" y="383.0" />
-      <point x="965.3532070707067" y="383.0" />
-      <point x="965.3532070707067" y="59.0" />
-      <point x="583.1948737373734" y="59.0" />
-      <point x="29.66666666666663" y="14.5" />
+      <point x="-18.25" y="-14.5" />
+      <point x="821.9869949494949" y="393.0" />
+      <point x="802.3323989898989" y="393.0" />
+      <point x="802.3323989898989" y="119.0" />
+      <point x="1183.379621212121" y="119.0" />
+      <point x="-19.77777777777783" y="14.5" />
     </edge>
     <edge source="com.example.animal.model.Parrot" target="com.example.common.behaviour.Sound">
-      <point x="-30.200000000000045" y="-25.5" />
-      <point x="1080.3532070707067" y="220.0" />
-      <point x="1111.3532070707067" y="220.0" />
-      <point x="1111.3532070707067" y="59.0" />
-      <point x="1365.9837626262624" y="59.0" />
-      <point x="-39.111111111111086" y="14.5" />
+      <point x="30.200000000000045" y="-25.5" />
+      <point x="666.0170454545453" y="260.0" />
+      <point x="661.5481060606062" y="260.0" />
+      <point x="661.5481060606062" y="79.0" />
+      <point x="455.17267676767676" y="79.0" />
+      <point x="9.777777777777828" y="14.5" />
     </edge>
     <edge source="com.example.animal.model.Rooster" target="com.example.animal.model.Chicken">
       <point x="-12.583333333333258" y="-37.0" />
-      <point x="1451.3900252525254" y="353.0" />
-      <point x="1503.4041666666667" y="353.0" />
-      <point x="50.33333333333326" y="25.5" />
-    </edge>
-    <edge source="com.example.animal.model.AnimalTest" target="com.example.animal.model.Chicken">
-      <point x="38.66666666666663" y="-14.5" />
-      <point x="966.3267929292933" y="517.0" />
-      <point x="1363.1573737373735" y="517.0" />
-      <point x="1363.1573737373735" y="383.0" />
-      <point x="1402.7375000000002" y="383.0" />
+      <point x="320.2083333333333" y="403.0" />
+      <point x="319.1666666666667" y="403.0" />
       <point x="-50.33333333333326" y="25.5" />
     </edge>
+    <edge source="com.example.animal.model.AnimalTest" target="com.example.animal.model.Chicken">
+      <point x="-38.666666666666515" y="-14.5" />
+      <point x="835.9097222222222" y="547.0" />
+      <point x="418.7916666666666" y="547.0" />
+      <point x="418.7916666666666" y="383.0" />
+      <point x="419.8333333333332" y="383.0" />
+      <point x="50.33333333333326" y="25.5" />
+    </edge>
     <edge source="com.example.animal.model.Parrot" target="com.example.animal.model.Bird">
-      <point x="30.200000000000045" y="-25.5" />
-      <point x="1140.7532070707068" y="220.0" />
-      <point x="1216.1782070707068" y="220.0" />
-      <point x="-27.375" y="14.5" />
-    </edge>
-    <edge source="com.example.animal.model.CaterPillar" target="com.example.animal.model.Insect">
-      <point x="0.0" y="-14.5" />
-      <point x="262.54250000000013" y="527.0" />
-      <point x="251.83333333333337" y="527.0" />
-      <point x="251.83333333333337" y="383.0" />
-      <point x="260.5" y="383.0" />
-      <point x="0.0" y="14.5" />
-    </edge>
-    <edge source="com.example.animal.model.Rooster" target="com.example.animal.model.Bird">
-      <point x="-62.91666666666674" y="-37.0" />
-      <point x="1401.056691919192" y="363.0" />
-      <point x="1264.4458333333332" y="363.0" />
-      <point x="1264.4458333333332" y="220.0" />
-      <point x="1252.6782070707068" y="220.0" />
+      <point x="0.0" y="-25.5" />
+      <point x="635.8170454545452" y="260.0" />
+      <point x="612.8592929292928" y="260.0" />
       <point x="9.125" y="14.5" />
     </edge>
+    <edge source="com.example.animal.model.CaterPillar" target="com.example.animal.model.Insect">
+      <point x="36.66666666666663" y="-14.5" />
+      <point x="210.91666666666652" y="557.0" />
+      <point x="191.15929292929275" y="557.0" />
+      <point x="191.15929292929275" y="393.0" />
+      <point x="176.83333333333326" y="393.0" />
+      <point x="28.333333333333258" y="14.5" />
+    </edge>
+    <edge source="com.example.animal.model.Rooster" target="com.example.animal.model.Bird">
+      <point x="62.91666666666674" y="-37.0" />
+      <point x="395.7083333333333" y="403.0" />
+      <point x="549.8170454545452" y="403.0" />
+      <point x="549.8170454545452" y="260.0" />
+      <point x="594.6092929292928" y="260.0" />
+      <point x="-9.125" y="14.5" />
+    </edge>
     <edge source="com.example.animal.model.AnimalTest" target="com.example.animal.model.Rooster">
-      <point x="51.55555555555554" y="-14.5" />
-      <point x="979.2156818181822" y="527.0" />
-      <point x="1463.9733585858585" y="527.0" />
+      <point x="-51.55555555555543" y="-14.5" />
+      <point x="823.0208333333333" y="557.0" />
+      <point x="332.7916666666666" y="557.0" />
       <point x="0.0" y="37.0" />
     </edge>
     <edge source="com.example.animal.controller.AnimalControllerTests" target="com.example.animal.controller.AnimalController">
@@ -237,90 +233,90 @@
     </edge>
     <edge source="com.example.animal.model.Shark" target="com.example.animal.model.AnimalWithDetails">
       <point x="0.0" y="-25.5" />
-      <point x="607.2907070707068" y="383.0" />
-      <point x="614.2226262626266" y="383.0" />
-      <point x="-59.625" y="36.5" />
+      <point x="59.625" y="36.5" />
     </edge>
     <edge source="com.example.animal.model.ClownFish" target="com.example.animal.model.AnimalWithDetails">
       <point x="0.0" y="-25.5" />
-      <point x="784.2907070707067" y="373.0" />
-      <point x="733.4726262626266" y="373.0" />
-      <point x="59.625" y="36.5" />
+      <point x="987.7369949494949" y="393.0" />
+      <point x="1044.5792424242425" y="393.0" />
+      <point x="-59.625" y="36.5" />
     </edge>
     <edge source="com.example.animal.behaviour.SingingAnimal" target="com.example.common.behaviour.Sound">
       <point x="0.0" y="-14.5" />
-      <point x="1403.4101262626266" y="89.0" />
-      <point x="1405.0948737373735" y="89.0" />
+      <point x="461.0" y="89.0" />
+      <point x="445.39489898989893" y="89.0" />
       <point x="0.0" y="14.5" />
     </edge>
     <edge source="com.example.animal.model.Insect" target="com.example.animal.behaviour.WalkingAnimal">
-      <point x="0.0" y="-14.5" />
-      <point x="260.5" y="230.0" />
-      <point x="280.8691414141416" y="230.0" />
+      <point x="-28.33333333333333" y="-14.5" />
+      <point x="120.16666666666663" y="260.0" />
+      <point x="69.0" y="260.0" />
       <point x="0.0" y="14.5" />
     </edge>
     <edge source="com.example.animal.model.ClownFish" target="com.example.animal.behaviour.SwiminingAnimal">
-      <point x="60.66666666666663" y="-25.5" />
-      <point x="844.9573737373735" y="383.0" />
-      <point x="860.3740404040401" y="383.0" />
-      <point x="-18.875" y="14.5" />
+      <point x="-60.66666666666663" y="-25.5" />
+      <point x="927.0703282828283" y="403.0" />
+      <point x="907.3115656565656" y="403.0" />
+      <point x="18.875" y="14.5" />
     </edge>
     <edge source="com.example.animal.model.AnimalTest" target="com.example.animal.model.Shark">
-      <point x="-25.77777777777783" y="-14.5" />
-      <point x="901.8823484848488" y="507.0" />
-      <point x="607.2907070707068" y="507.0" />
+      <point x="25.777777777777942" y="-14.5" />
+      <point x="900.3541666666666" y="537.0" />
+      <point x="1164.736994949495" y="537.0" />
       <point x="0.0" y="25.5" />
     </edge>
     <edge source="com.example.animal.model.Duck" target="com.example.common.behaviour.Sound">
-      <point x="-35.0" y="-36.5" />
-      <point x="1213.552474747475" y="383.0" />
-      <point x="1196.5532070707068" y="383.0" />
-      <point x="1196.5532070707068" y="79.0" />
-      <point x="1385.5393181818179" y="79.0" />
-      <point x="-19.555555555555657" y="14.5" />
+      <point x="0.0" y="-36.5" />
+      <point x="696.2369949494949" y="383.0" />
+      <point x="745.8170454545452" y="383.0" />
+      <point x="745.8170454545452" y="59.0" />
+      <point x="474.7282323232322" y="59.0" />
+      <point x="29.333333333333258" y="14.5" />
     </edge>
     <edge source="com.example.animal.model.AnimalTest" target="com.example.animal.model.ClownFish">
-      <point x="-12.888888888888914" y="-14.5" />
-      <point x="914.7712373737377" y="497.0" />
-      <point x="784.2907070707067" y="497.0" />
+      <point x="12.888888888889028" y="-14.5" />
+      <point x="887.4652777777777" y="527.0" />
+      <point x="987.7369949494949" y="527.0" />
       <point x="0.0" y="25.5" />
     </edge>
     <edge source="com.example.animal.service.AnimalStatsService" target="com.example.animal.behaviour.Animal">
       <point x="0.0" y="-14.5" />
-      <point x="469.83333333333337" y="89.0" />
-      <point x="543.6393181818179" y="89.0" />
-      <point x="-9.888888888888914" y="14.5" />
+      <point x="1516.1573989898989" y="109.0" />
+      <point x="1242.7129545454545" y="109.0" />
+      <point x="39.55555555555554" y="14.5" />
     </edge>
     <edge source="com.example.animal.model.Shark" target="com.example.animal.behaviour.SwiminingAnimal">
-      <point x="52.799999999999955" y="-25.5" />
-      <point x="660.0907070707068" y="383.0" />
-      <point x="822.6240404040401" y="383.0" />
-      <point x="-56.625" y="14.5" />
+      <point x="-52.80000000000001" y="-25.5" />
+      <point x="1111.9369949494949" y="383.0" />
+      <point x="945.0615656565656" y="383.0" />
+      <point x="56.625" y="14.5" />
     </edge>
     <edge source="com.example.animal.model.AnimalTest" target="com.example.animal.model.Parrot">
-      <point x="12.888888888888914" y="-14.5" />
-      <point x="940.5490151515155" y="497.0" />
-      <point x="1110.5532070707068" y="497.0" />
+      <point x="-25.777777777777715" y="-14.5" />
+      <point x="848.798611111111" y="537.0" />
+      <point x="584.0356060606061" y="537.0" />
+      <point x="584.0356060606061" y="403.0" />
+      <point x="635.8170454545452" y="403.0" />
       <point x="0.0" y="25.5" />
     </edge>
     <edge source="com.example.animal.model.Chicken" target="com.example.common.behaviour.Sound">
-      <point x="60.40000000000009" y="-25.5" />
-      <point x="1513.4708333333333" y="230.0" />
-      <point x="1497.1108585858588" y="230.0" />
-      <point x="1497.1108585858588" y="79.0" />
-      <point x="1424.650429292929" y="79.0" />
-      <point x="19.5555555555556" y="14.5" />
+      <point x="-30.200000000000045" y="-25.5" />
+      <point x="339.2999999999999" y="260.0" />
+      <point x="358.49999999999994" y="260.0" />
+      <point x="358.49999999999994" y="79.0" />
+      <point x="425.8393434343433" y="79.0" />
+      <point x="-19.555555555555657" y="14.5" />
     </edge>
     <edge source="com.example.animal.model.AnimalTest" target="com.example.animal.behaviour.Animal">
-      <point x="-51.55555555555554" y="-14.5" />
-      <point x="876.1045707070712" y="527.0" />
-      <point x="376.83333333333337" y="527.0" />
-      <point x="376.83333333333337" y="79.0" />
-      <point x="533.750429292929" y="79.0" />
-      <point x="-19.77777777777783" y="14.5" />
+      <point x="38.666666666666856" y="-14.5" />
+      <point x="913.2430555555555" y="547.0" />
+      <point x="1423.1573989898989" y="547.0" />
+      <point x="1423.1573989898989" y="119.0" />
+      <point x="1232.8240656565656" y="119.0" />
+      <point x="29.66666666666663" y="14.5" />
     </edge>
   </edges>
-  <settings layout="Hierarchic Group" zoom="0.906801007556675" x="784.0" y="320.0" />
+  <settings layout="Hierarchic Group" zoom="0.906801007556675" x="784.0" y="166.16250000000002" />
   <SelectedNodes />
   <Categories>
     <Category>Fields</Category>
