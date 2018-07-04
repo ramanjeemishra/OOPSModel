@@ -3,6 +3,7 @@ package com.example.animal.behaviour;
 import com.fasterxml.jackson.annotation.JsonProperty;
 
 public interface Animal {
+
     @JsonProperty
     default boolean canFly() {
         return false;
