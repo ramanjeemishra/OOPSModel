@@ -1,9 +1,9 @@
 package com.example.animal.model;
 
 import com.example.animal.behaviour.SingingAnimal;
-import com.example.animal.behaviour.Sound;
+import com.example.common.behaviour.Sound;
 
-public class Rooster extends Bird implements SingingAnimal {
+public class Rooster implements SingingAnimal, Bird {
 
     private final Sound sound;
 

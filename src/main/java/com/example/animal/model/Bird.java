@@ -1,4 +1,6 @@
 package com.example.animal.model;
 
-public abstract class Bird extends Animal{
+import com.example.animal.behaviour.Animal;
+
+public interface Bird extends Animal {
 }

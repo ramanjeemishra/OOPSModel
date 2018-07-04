@@ -1,12 +1,11 @@
 package com.example.animal.model;
 
-import static com.example.animal.repository.AnimalTestData.*;
-
+import com.example.animal.behaviour.Animal;
 import com.example.animal.repository.AnimalRepository;
-import com.example.animal.service.AnimalStatsService;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 
+import static com.example.animal.repository.AnimalTestData.*;
 import static com.example.animal.service.AnimalStatsService.count;
 import static org.junit.jupiter.api.Assertions.*;
 
@@ -85,6 +84,18 @@ class AnimalTest {
                 () -> assertEquals("Grey", shark.getColor()));
     }
 
+    @DisplayName("Counting animals")
+    @Test
+    void countAnimals() {
+        Animal[] animalBehaviours = AnimalRepository.getAnimals();
 
+        assertAll("Count Animals with different predicates",
+                () -> assertEquals(1, count(animalBehaviours, Animal::canFly)),
+                () -> assertEquals(1, count(animalBehaviours, Animal::canWalk)),
+                () -> assertEquals(1, count(animalBehaviours, Animal::canSing)),
+                () -> assertEquals(5, count(animalBehaviours, Animal::canSwim))
+
+        );
+    }
 
 }

@@ -2,9 +2,9 @@ package com.example.animal.model;
 
 import com.example.animal.behaviour.FlyingAnimal;
 import com.example.animal.behaviour.SingingAnimal;
-import com.example.animal.behaviour.Sound;
+import com.example.common.behaviour.Sound;
 
-public class Chicken extends Bird implements SingingAnimal, FlyingAnimal {
+public class Chicken implements SingingAnimal, FlyingAnimal, Bird {
 
     private Sound sound;
 

@@ -1,13 +1,9 @@
 package com.example.animal.repository;
 
-import com.example.animal.behaviour.Sound;
 import com.example.animal.model.*;
+import com.example.common.behaviour.Sound;
 
-public class AnimalTestData
-{
-    private AnimalTestData() {
-    }
-
+public class AnimalTestData {
     public static Sound duckSound = () -> "Quack, Quack";
     public static Sound chickenSound = () -> "Cluck, cluck";
     public static Sound roosterSound = () -> "Cock-a-doodle-doo";
@@ -15,6 +11,8 @@ public class AnimalTestData
     public static Sound catSound = () -> "Meow";
     public static Sound phoneSound = () -> "Tring-tring";
 
+    private AnimalTestData() {
+    }
 
     public static Duck makeDuck() {
         return new Duck(duckSound);
@@ -57,19 +55,19 @@ public class AnimalTestData
         return new Shark("Large", "Grey", makeFish());
     }
 
-    public static ClownFish makeClownFish(){
+    public static ClownFish makeClownFish() {
         return new ClownFish("Small", "Orange", true);
     }
 
-    public static ButterFly makeButterFly(){
+    public static ButterFly makeButterFly() {
         return new ButterFly();
     }
 
-    public static CaterPillar makeCaterPillar(){
+    public static CaterPillar makeCaterPillar() {
         return new CaterPillar();
     }
 
-    public static Dolphin makeDolphin(){
+    public static Dolphin makeDolphin() {
         return new Dolphin("Medium", "Grey");
     }
 }

@@ -11,7 +11,7 @@ public class CaterPillar extends Insect {
         return true;
     }
 
-    public Insect metaphor(){
+    public Insect metaphor() {
         return new ButterFly();
     }
 }

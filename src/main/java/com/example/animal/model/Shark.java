@@ -1,8 +1,9 @@
 package com.example.animal.model;
 
+import com.example.animal.behaviour.Animal;
 import com.example.animal.behaviour.SwiminingAnimal;
 
-public class Shark extends AnimalWithBehaviourDetails implements SwiminingAnimal {
+public class Shark extends AnimalWithDetails implements SwiminingAnimal {
 
     private final Animal eat;
 

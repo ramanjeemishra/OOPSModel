@@ -1,10 +1,12 @@
 package com.example.animal.model;
 
-public abstract class AnimalWithBehaviourDetails  extends Animal{
+import com.example.animal.behaviour.Animal;
+
+public abstract class AnimalWithDetails implements Animal {
     String size;
     String color;
 
-    public AnimalWithBehaviourDetails(String size, String color) {
+    public AnimalWithDetails(String size, String color) {
         this.size = size;
         this.color = color;
     }

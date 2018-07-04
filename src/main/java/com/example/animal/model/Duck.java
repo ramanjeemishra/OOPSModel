@@ -1,10 +1,10 @@
 package com.example.animal.model;
 
 import com.example.animal.behaviour.SingingAnimal;
-import com.example.animal.behaviour.Sound;
 import com.example.animal.behaviour.SwiminingAnimal;
+import com.example.common.behaviour.Sound;
 
-public class Duck extends Bird implements SwiminingAnimal, SingingAnimal {
+public class Duck implements SwiminingAnimal, SingingAnimal, Bird {
 
     private final boolean canSwim;
     private Sound sound;

@@ -2,7 +2,7 @@ package com.example.animal.model;
 
 import com.example.animal.behaviour.SwiminingAnimal;
 
-public class ClownFish extends AnimalWithBehaviourDetails implements SwiminingAnimal {
+public class ClownFish extends AnimalWithDetails implements SwiminingAnimal {
 
 
     private final boolean makeJoke;
