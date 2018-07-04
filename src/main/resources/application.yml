@@ -3,5 +3,12 @@ server:
     servlet:
       context-path: /v1
 
-
+spring:
+  jackson:
+    serialization:
+      FAIL_ON_EMPTY_BEANS: false
+      INDENT_OUTPUT: true
+      WRAP_ROOT_VALUE: true
+      WRITE_NULL_MAP_VALUES: false
+    default-property-inclusion: non_null
 
