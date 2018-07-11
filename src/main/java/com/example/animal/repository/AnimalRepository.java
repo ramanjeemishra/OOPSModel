@@ -16,7 +16,7 @@ public class AnimalRepository {
                 makeButterFly(),
                 makeCaterPillar(),
                 makeDolphin(),
-                makeShark()
+                makeShark(),
         };
     }
 }

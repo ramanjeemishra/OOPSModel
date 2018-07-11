@@ -1,8 +1,10 @@
 package com.example.animal.model;
 
-public class Dolphin extends AnimalWithDetails implements SeaCreature {
+public class Dolphin implements SeaCreature {
+    private final AnimalCharacteristic characteristic;
+
     public Dolphin(String color, String size) {
-        super(color, size);
+        characteristic = new AnimalCharacteristic(color, size);
     }
 
 

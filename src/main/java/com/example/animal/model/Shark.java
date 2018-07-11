@@ -2,12 +2,13 @@ package com.example.animal.model;
 
 import com.example.animal.behaviour.SwimmingAnimal;
 
-public class Shark extends AnimalWithDetails implements SwimmingAnimal, Animal {
+public class Shark implements SwimmingAnimal {
 
     private final Animal eat;
+    private final AnimalCharacteristic characteristic;
 
     Shark(String size, String color, Animal eat) {
-        super(size, color);
+        characteristic = new AnimalCharacteristic(size, color);
         this.eat = eat;
     }
 
@@ -20,4 +21,11 @@ public class Shark extends AnimalWithDetails implements SwimmingAnimal, Animal {
         return eat;
     }
 
+    public String getSize() {
+        return characteristic.getSize();
+    }
+
+    public String getColor() {
+        return characteristic.getColor();
+    }
 }
