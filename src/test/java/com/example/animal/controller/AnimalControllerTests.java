@@ -21,21 +21,21 @@ import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.
 @AutoConfigureMockMvc
 public class AnimalControllerTests {
 
-    @Autowired
-    private MockMvc mockMvc;
+	@Autowired
+	private MockMvc mockMvc;
 
-    @Test
-    public void contextLoads() {
-        assertNotNull(mockMvc);
-    }
+	@Test
+	public void contextLoads() {
+		assertNotNull(mockMvc);
+	}
 
-    @Test
-    public void animals() throws Exception {
-        mockMvc.perform(
-                get("/animals")
-                        .accept(APPLICATION_JSON))
-                .andExpect(status().isOk())
-                .andExpect(content().string(
-                        containsString(duckSound.sound())));
-    }
+	@Test
+	public void animals() throws Exception {
+		mockMvc.perform(
+				get("/animals")
+						.accept(APPLICATION_JSON))
+				.andExpect(status().isOk())
+				.andExpect(content().string(
+						containsString(duckSound.sound())));
+	}
 }
