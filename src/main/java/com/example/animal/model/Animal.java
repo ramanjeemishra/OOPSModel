@@ -1,4 +1,4 @@
-package com.example.animal.behaviour;
+package com.example.animal.model;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 

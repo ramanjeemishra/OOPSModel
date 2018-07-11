@@ -18,12 +18,12 @@ public class AnimalTestData {
         return new Duck(duckSound);
     }
 
-    public static Chicken makeChicken() {
-        return new Chicken(chickenSound);
-    }
-
     public static Rooster makeRooster() {
         return new Rooster(roosterSound, makeChicken());
+    }
+
+    public static Chicken makeChicken() {
+        return new Chicken(chickenSound);
     }
 
     public static Parrot makeParrotLivingWithDog() {
@@ -47,12 +47,12 @@ public class AnimalTestData {
         return new Parrot(phoneSound);
     }
 
-    public static Fish makeFish() {
-        return new Fish();
+    public static Shark makeShark() {
+        return new SharkBuilder().setSize("Large").setColor("Grey").setEat(makeFish()).createShark();
     }
 
-    public static Shark makeShark() {
-        return new Shark("Large", "Grey", makeFish());
+    public static Fish makeFish() {
+        return new Fish();
     }
 
     public static ClownFish makeClownFish() {

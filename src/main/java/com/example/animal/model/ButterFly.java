@@ -2,12 +2,12 @@ package com.example.animal.model;
 
 public class ButterFly implements Insect {
     @Override
-    public boolean fly() {
-        return false;
+    public boolean canFly() {
+        return true;
     }
 
     @Override
-    public boolean walk() {
+    public boolean canWalk() {
         return false;
     }
 }

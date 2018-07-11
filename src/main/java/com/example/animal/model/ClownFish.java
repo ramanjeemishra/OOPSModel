@@ -1,8 +1,6 @@
 package com.example.animal.model;
 
-import com.example.animal.behaviour.SwiminingAnimal;
-
-public class ClownFish extends AnimalWithDetails implements SwiminingAnimal {
+public class ClownFish extends AnimalWithDetails implements SeaCreature {
 
 
     private final boolean makeJoke;
@@ -13,7 +11,7 @@ public class ClownFish extends AnimalWithDetails implements SwiminingAnimal {
     }
 
     @Override
-    public boolean swim() {
+    public boolean canSwim() {
         return true;
     }
 

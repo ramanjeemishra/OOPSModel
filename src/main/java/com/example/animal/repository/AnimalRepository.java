@@ -1,6 +1,6 @@
 package com.example.animal.repository;
 
-import com.example.animal.behaviour.Animal;
+import com.example.animal.model.Animal;
 
 import static com.example.animal.repository.AnimalTestData.*;
 

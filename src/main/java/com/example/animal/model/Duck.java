@@ -1,28 +1,35 @@
 package com.example.animal.model;
 
-import com.example.animal.behaviour.SingingAnimal;
-import com.example.animal.behaviour.SwiminingAnimal;
 import com.example.common.behaviour.Sound;
 import com.fasterxml.jackson.annotation.JsonProperty;
 
-public class Duck implements SwiminingAnimal, SingingAnimal, Bird {
+public class Duck implements Bird {
 
-    private final boolean canSwim;
-    @JsonProperty
-    private Sound sound;
+	@JsonProperty
+	private Sound sound;
 
-    public Duck(Sound sound) {
-        this.canSwim = true;
-        this.sound = sound;
-    }
+	public Duck(Sound sound) {
+		this.sound = sound;
+	}
 
-    @Override
-    public Sound sing() {
-        return sound;
-    }
+	@Override
+	public boolean canSwim() {
+		return true;
+	}
 
-    @Override
-    public boolean swim() {
-        return canSwim;
-    }
+	@Override
+	public Sound sing() {
+		return sound;
+	}
+
+	@Override
+	public boolean canSing() {
+		return sing() != null;
+	}
+
+
+	@Override
+	public boolean canFly() {
+		return true;
+	}
 }

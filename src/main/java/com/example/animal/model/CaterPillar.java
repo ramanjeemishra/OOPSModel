@@ -2,12 +2,12 @@ package com.example.animal.model;
 
 public class CaterPillar implements Insect {
     @Override
-    public boolean fly() {
+    public boolean canFly() {
         return false;
     }
 
     @Override
-    public boolean walk() {
+    public boolean canWalk() {
         return true;
     }
 

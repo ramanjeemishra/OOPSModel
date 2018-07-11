@@ -1,11 +1,8 @@
 package com.example.animal.model;
 
-import com.example.animal.behaviour.Animal;
-import com.example.animal.behaviour.SwiminingAnimal;
-
-public class Fish implements SwiminingAnimal, Animal {
+public class Fish implements SeaCreature {
     @Override
-    public boolean swim() {
+    public boolean canSwim() {
         return true;
     }
 }

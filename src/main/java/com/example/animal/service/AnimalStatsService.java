@@ -1,6 +1,6 @@
 package com.example.animal.service;
 
-import com.example.animal.behaviour.Animal;
+import com.example.animal.model.Animal;
 
 import java.util.function.Predicate;
 
