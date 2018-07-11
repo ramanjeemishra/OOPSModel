@@ -1,10 +1,10 @@
 package com.example.animal.model;
 
 public class Dolphin implements SeaCreature {
-    private final AnimalCharacteristic characteristic;
+    private final Characteristics characteristics;
 
     public Dolphin(String color, String size) {
-        characteristic = new AnimalCharacteristic(color, size);
+        characteristics = new Characteristics(color, size);
     }
 
 

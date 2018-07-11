@@ -5,10 +5,10 @@ import com.example.animal.behaviour.SwimmingAnimal;
 public class Shark implements SwimmingAnimal {
 
     private final Animal eat;
-    private final AnimalCharacteristic characteristic;
+    private final Characteristics characteristics;
 
     Shark(String size, String color, Animal eat) {
-        characteristic = new AnimalCharacteristic(size, color);
+        characteristics = new Characteristics(size, color);
         this.eat = eat;
     }
 
@@ -22,10 +22,10 @@ public class Shark implements SwimmingAnimal {
     }
 
     public String getSize() {
-        return characteristic.getSize();
+        return characteristics.getSize();
     }
 
     public String getColor() {
-        return characteristic.getColor();
+        return characteristics.getColor();
     }
 }

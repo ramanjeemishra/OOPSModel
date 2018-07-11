@@ -1,19 +1,19 @@
 package com.example.animal.model;
 
-final class AnimalCharacteristic {
+final class Characteristics {
 	String size;
 	String color;
 
-	public AnimalCharacteristic(String size, String color) {
+	Characteristics(String size, String color) {
 		this.size = size;
 		this.color = color;
 	}
 
-	public String getSize() {
+	String getSize() {
 		return size;
 	}
 
-	public String getColor() {
+	String getColor() {
 		return color;
 	}
 }

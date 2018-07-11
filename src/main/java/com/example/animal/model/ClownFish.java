@@ -3,10 +3,10 @@ package com.example.animal.model;
 public class ClownFish implements SeaCreature {
 
 	private final boolean makeJoke;
-	private final AnimalCharacteristic characteristic;
+	private final Characteristics characteristics;
 
 	public ClownFish(String size, String color, boolean makeJoke) {
-		characteristic = new AnimalCharacteristic(size, color);
+		characteristics = new Characteristics(size, color);
 		this.makeJoke = makeJoke;
 	}
 
@@ -21,10 +21,10 @@ public class ClownFish implements SeaCreature {
 	}
 
 	public String getSize() {
-		return characteristic.getSize();
+		return characteristics.getSize();
 	}
 
 	public String getColor() {
-		return characteristic.getColor();
+		return characteristics.getColor();
 	}
 }
